@@ -7,7 +7,7 @@ if answer == "left":
     answer == input("You come to a river, you can walk around it or swim to swim accros: ")
 
     if answer == "swim":
-        print("You swim accros and was bitten by an alligator.")
+        print("You swam accros and was eatten by an alligator.")
     elif answer == "walk":
         print("You walked for many miles, ran out of water and you lost the game.")
     else:
@@ -15,5 +15,19 @@ if answer == "left":
 
 elif answer == "right":
     print("You come to a bridge, it looks wobbly, do you want to cross it or back (cross/back)?")
+    
+    if answer == "back":
+        print("You go back and lose.")
+    elif answer == "cross":
+        print("You cross the bridge and meet a stranger. Do you talk to them (y/n).")
+
+        if answer == "yes":
+            print("You talk to the stranger and they give you godl. You WIN!")
+        elif answer == "no":
+            print("You ignore the stanger and they are offended and you lose.")
+        else:
+            print("Not a valid option. You lose.")
+    else:
+        print("Not a valid option. You lose.")
 else:
     print("Not a valid option. You lose.")

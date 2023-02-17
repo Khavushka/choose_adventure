@@ -22,7 +22,7 @@ elif answer == "right":
         print("You cross the bridge and meet a stranger. Do you talk to them (y/n).")
 
         if answer == "yes":
-            print("You talk to the stranger and they give you godl. You WIN!")
+            print("You talk to the stranger and they give you gold. You WIN!")
         elif answer == "no":
             print("You ignore the stanger and they are offended and you lose.")
         else:
@@ -30,4 +30,4 @@ elif answer == "right":
     else:
         print("Not a valid option. You lose.")
 else:
-    print("Not a valid option. You lose.")
+    print("Not a valid option. You lose.", name)
